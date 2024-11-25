@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shower Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Система бронирования душа в домике в Альпах</h1>
+        <form id="booking-form">
+            <label for="time">Select a time slot:</label>
+            <select id="time" name="time">
+                <option value="08:00">08:00 - 08:10</option>
+                <option value="08:10">08:10 - 08:20</option>
+                <option value="08:20">08:20 - 08:30</option>
+                <option value="08:30">08:30 - 08:40</option>
+                <option value="08:40">08:40 - 08:50</option>
+                <option value="08:50">08:50 - 09:00</option>
+                <option value="09:00">09:00 - 09:10</option>
+                <option value="09:10">09:10 - 09:20</option>
+                <option value="09:20">09:20 - 09:30</option>
+                <option value="09:30">09:30 - 09:40</option>
+                <option value="09:40">09:40 - 09:50</option>
+                <option value="09:50">09:50 - 10:00</option>
+                <!-- Добавьте больше слотов при необходимости -->
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
