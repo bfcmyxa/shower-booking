@@ -19,5 +19,9 @@ form.addEventListener("submit", (event) => {
         localStorage.setItem("bookedSlots", JSON.stringify(bookedSlots));
         statusDiv.textContent = `✅ Slot ${selectedTime} is successfully booked!`;
         statusDiv.style.color = "green";
+
+        setTimeout(() => {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }, 5000);
     }
 });
